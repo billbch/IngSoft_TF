@@ -15,7 +15,7 @@ namespace PetCareISW.DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
-            optionsBuilder.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW2"); 
+            optionsBuilder.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW"); 
         }
 
        

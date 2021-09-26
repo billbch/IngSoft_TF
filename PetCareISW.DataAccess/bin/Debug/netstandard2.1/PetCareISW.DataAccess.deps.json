@@ -13,7 +13,9 @@
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.10",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "MySql.EntityFrameworkCore": "5.0.5",
+          "PetCareISW.DTO": "1.0.0",
           "PetCareISW.Entities": "1.0.0"
         },
         "runtime": {
@@ -415,11 +417,24 @@
           }
         }
       },
+      "PetCareISW.DTO/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "MySql.EntityFrameworkCore": "5.0.5"
+        },
+        "runtime": {
+          "PetCareISW.DTO.dll": {}
+        }
+      },
       "PetCareISW.Entities/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "MySql.EntityFrameworkCore": "5.0.5",
           "System.ComponentModel.Annotations": "5.0.0"
         },
@@ -693,6 +708,11 @@
       "sha512": "sha512-6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
       "path": "system.text.encoding.codepages/4.4.0",
       "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
+    },
+    "PetCareISW.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "PetCareISW.Entities/1.0.0": {
       "type": "project",

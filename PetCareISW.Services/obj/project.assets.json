@@ -466,6 +466,60 @@
             "rid": "win"
           }
         }
+      },
+      "PetCareISW.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "MySql.EntityFrameworkCore": "5.0.5",
+          "PetCareISW.DTO": "1.0.0",
+          "PetCareISW.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PetCareISW.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetCareISW.DataAccess.dll": {}
+        }
+      },
+      "PetCareISW.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "MySql.EntityFrameworkCore": "5.0.5"
+        },
+        "compile": {
+          "bin/placeholder/PetCareISW.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetCareISW.DTO.dll": {}
+        }
+      },
+      "PetCareISW.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "MySql.EntityFrameworkCore": "5.0.5",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PetCareISW.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetCareISW.Entities.dll": {}
+        }
       }
     }
   },
@@ -1495,6 +1549,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "PetCareISW.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../PetCareISW.DataAccess/PetCareISW.DataAccess.csproj",
+      "msbuildProject": "../PetCareISW.DataAccess/PetCareISW.DataAccess.csproj"
+    },
+    "PetCareISW.DTO/1.0.0": {
+      "type": "project",
+      "path": "../PetCareISW.DTO/PetCareISW.DTO.csproj",
+      "msbuildProject": "../PetCareISW.DTO/PetCareISW.DTO.csproj"
+    },
+    "PetCareISW.Entities/1.0.0": {
+      "type": "project",
+      "path": "../PetCareISW.Entities/PetCareISW.Entities.csproj",
+      "msbuildProject": "../PetCareISW.Entities/PetCareISW.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1503,7 +1572,11 @@
       "Microsoft.EntityFrameworkCore.Abstractions >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.10",
-      "MySql.EntityFrameworkCore >= 5.0.5"
+      "Microsoft.Extensions.DependencyInjection >= 5.0.2",
+      "MySql.EntityFrameworkCore >= 5.0.5",
+      "PetCareISW.DTO >= 1.0.0",
+      "PetCareISW.DataAccess >= 1.0.0",
+      "PetCareISW.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1540,7 +1613,17 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
+              "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
+            },
+            "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
+              "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
+            },
+            "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
+              "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.Entities\\PetCareISW.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1570,6 +1653,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.10, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[5.0.2, )"
           },
           "MySql.EntityFrameworkCore": {
             "target": "Package",

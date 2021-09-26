@@ -8,8 +8,8 @@ using PetCareISW.DataAccess;
 namespace PetCareISW.DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20210926165538_PetCareIW")]
-    partial class PetCareIW
+    [Migration("20210926195153_PetCareISW")]
+    partial class PetCareISW
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -57,6 +57,11 @@ namespace PetCareISW.DataAccess.Migrations
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
+
+                    b.Property<string>("Rol")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("varchar(15)");
 
                     b.HasKey("Id");
 

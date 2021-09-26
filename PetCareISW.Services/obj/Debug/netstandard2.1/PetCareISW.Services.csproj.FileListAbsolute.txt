@@ -8,3 +8,10 @@ F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\ob
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CoreCompileInputs.cache
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.dll
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DataAccess.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DTO.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Entities.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DataAccess.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DTO.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CopyComplete

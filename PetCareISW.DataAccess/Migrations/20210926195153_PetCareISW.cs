@@ -3,7 +3,7 @@ using MySql.EntityFrameworkCore.Metadata;
 
 namespace PetCareISW.DataAccess.Migrations
 {
-    public partial class PetCareIW : Migration
+    public partial class PetCareISW : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -19,6 +19,7 @@ namespace PetCareISW.DataAccess.Migrations
                     Age = table.Column<int>(type: "int", nullable: false),
                     Phone = table.Column<long>(type: "bigint", nullable: false),
                     Password = table.Column<string>(type: "varchar(15)", maxLength: 15, nullable: false),
+                    Rol = table.Column<string>(type: "varchar(15)", maxLength: 15, nullable: false),
                     Document = table.Column<long>(type: "bigint", nullable: false),
                     Photo = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false)
                 },

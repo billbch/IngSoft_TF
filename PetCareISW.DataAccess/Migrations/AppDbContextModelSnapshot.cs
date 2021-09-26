@@ -56,6 +56,11 @@ namespace PetCareISW.DataAccess.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
+                    b.Property<string>("Rol")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("varchar(15)");
+
                     b.HasKey("Id");
 
                     b.ToTable("PeopleProfiles");
