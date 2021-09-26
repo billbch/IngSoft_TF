@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J5aru3LkoBtYixiChDGB1cN47xcL2ClpJkcCfCn8cgjfp1tMoJ3Wh8EtXiCuJNcHt/ddwrui1K28Yho2/rgEQA==",
+  "dgSpecHash": "y9iOxNLvFVXu1LCTo+7V72R+yaFV6KNxjW9qWB2+ETxh89Yzj9qdr3tE7dfykO2oJohkxxHIsnlPTIMX40isBQ==",
   "success": true,
-  "projectFilePath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
+  "projectFilePath": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bill\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Bill\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
