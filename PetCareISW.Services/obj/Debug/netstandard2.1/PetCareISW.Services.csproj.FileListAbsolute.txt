@@ -8,3 +8,13 @@ F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\ob
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CoreCompileInputs.cache
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.dll
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.pdb
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.deps.json
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.dll
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.pdb
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.AssemblyReference.cache
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.AssemblyInfoInputs.cache
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.AssemblyInfo.cs
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CoreCompileInputs.cache
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.dll
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.pdb
