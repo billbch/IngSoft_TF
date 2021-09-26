@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using PetCareISW.DataAccess;
+using PetCareISW.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,13 +29,17 @@ namespace PetCareISW
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddInjection();
+            services.AddDbContext<AppDbContext>(options =>
+            {
+                options.UseSqlServer(@"Server=LAPTOP-6QJ5S582\MSSQLSERVER01;Database=PetCareISW;Integrated Security=true;");
+                //options.UseSqlServer(@"Data Source=DESKTOP-NRGUKED;Initial Catalog=EcommerceDb;Integrated Security=True");
+                // options=>options.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW"));
+            });
             services.AddControllers();
-            services.AddDbContext<AppDbContext>(
-                options=>options.UseSqlServer(@"Server = DESKTOP-44K5N6D\MSSQLSERVER2; Database = PetCare; Integrated Security = true; "));
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "PetCareISW", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "PetCareAPI", Version = "v1" });
             });
         }
 
