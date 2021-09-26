@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {}
+    "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {}
   },
   "projects": {
-    "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {
+    "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
+        "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
         "projectName": "PetCareISW.Services",
-        "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
+        "projectPath": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
         "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
-        "outputPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\obj\\",
+        "outputPath": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
