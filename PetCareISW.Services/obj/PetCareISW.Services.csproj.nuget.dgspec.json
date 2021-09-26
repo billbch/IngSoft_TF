@@ -1,27 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.Services\\PetCareISW.Services.csproj": {}
+    "C:\\Users\\Sebastian\\Desktop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {}
   },
   "projects": {
-    "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.Services\\PetCareISW.Services.csproj": {
+    "C:\\Users\\Sebastian\\Desktop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.Services\\PetCareISW.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
         "projectName": "PetCareISW.Services",
-        "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.Services\\PetCareISW.Services.csproj",
-        "packagesPath": "C:\\Users\\EQUIPO\\.nuget\\packages\\",
-        "outputPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\BackendPetCare\\PetCareISW.Services\\obj\\",
+        "projectPath": "C:\\Users\\Sebastian\\Desktop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
+        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sebastian\\Desktop\\IngSoft_TF\\PetCareISW.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\EQUIPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -84,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
