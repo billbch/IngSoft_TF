@@ -31,7 +31,7 @@ namespace PetCareISW
 
             services.AddControllers();
             services.AddDbContext<AppDbContext>(
-                options=>options.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW"));
+                options=>options.UseSqlServer(@"Server = DESKTOP-44K5N6D\MSSQLSERVER2; Database = PetCare; Integrated Security = true; "));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PetCareISW", Version = "v1" });
