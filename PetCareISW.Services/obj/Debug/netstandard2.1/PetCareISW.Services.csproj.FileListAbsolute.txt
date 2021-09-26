@@ -8,3 +8,20 @@ F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\ob
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CoreCompileInputs.cache
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.dll
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.deps.json
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.dll
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.AssemblyInfo.cs
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.dll
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DataAccess.dll
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DTO.dll
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Entities.dll
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DataAccess.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DTO.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CopyComplete
