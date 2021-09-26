@@ -21,6 +21,10 @@ namespace PetCareISW.Services
 
             services.AddTransient<IBusinessRepository, BusinessRepository>();
             services.AddTransient<IBusinessService, BusinessService>();
+	        services.AddTransient<IPersonProfileRepository,PersonProfileRepository>();
+            services.AddTransient<IPersonProfileService, PersonProfileService>();
+            services.AddTransient<IAppointmentRepository, AppointmentRepository>();
+            services.AddTransient<IAppointmentService, AppointmentService>();
             return services.AddScoped<IBusinessRepository, BusinessRepository>()
                 .AddScoped<IBusinessService, BusinessService>();
         }

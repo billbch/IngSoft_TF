@@ -37,3 +37,16 @@ C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandar
 C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.Entities.dll
 C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
 C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.csproj.CopyComplete
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.csproj.AssemblyReference.cache
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.AssemblyInfoInputs.cache
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.AssemblyInfo.cs
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.csproj.CoreCompileInputs.cache
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.DataAccess.deps.json
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.DataAccess.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.DataAccess.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.Entities.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.csproj.CopyComplete

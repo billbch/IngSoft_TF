@@ -27,6 +27,9 @@ namespace PetCareISW.Entities
         [Required]
         [StringLength(15)]
         public string Password { get; set; }
+        [Required]
+        [StringLength(15)]
+        public string Rol { get; set; }
         public long Document { get; set; }
         [Required]
         [StringLength(100)]

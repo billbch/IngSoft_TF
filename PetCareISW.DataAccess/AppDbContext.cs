@@ -14,12 +14,13 @@ namespace PetCareISW.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=LAPTOP-6QJ5S582\MSSQLSERVER01;Database=PetCareISW;Integrated Security=true;");
+            optionsBuilder.UseSqlServer(@"Server = (localdb)\MSSQLLocalDB;Database=PetCareISW;Integrated Security=true;");
             //optionsBuilder.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW2"); 
         }
 
        
         public DbSet<PersonProfile> PeopleProfiles { get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Business> Businesses { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Pet> Pet { get; set; }
