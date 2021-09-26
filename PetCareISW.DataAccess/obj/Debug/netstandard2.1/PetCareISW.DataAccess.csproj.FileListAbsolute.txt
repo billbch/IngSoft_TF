@@ -24,3 +24,16 @@ D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\
 D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.csproj.CopyComplete
 D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.dll
 D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.AssemblyInfo.cs
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.dll
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.DataAccess.deps.json
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.DataAccess.dll
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.DataAccess.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.Entities.dll
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.DataAccess\obj\Debug\netstandard2.1\PetCareISW.DataAccess.csproj.CopyComplete

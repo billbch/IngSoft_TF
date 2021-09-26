@@ -18,3 +18,13 @@ D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Entities\obj\Debug\ne
 D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.csproj.CoreCompileInputs.cache
 D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.dll
 D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Entities\bin\Debug\netstandard2.1\PetCareISW.Entities.deps.json
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Entities\bin\Debug\netstandard2.1\PetCareISW.Entities.dll
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Entities\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.AssemblyInfo.cs
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.dll
+C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.pdb
