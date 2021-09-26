@@ -49,3 +49,4 @@ F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW\bin\Debug\n
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW\bin\Debug\net5.0\PetCareISW.Entities.dll
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW\bin\Debug\net5.0\PetCareISW.DataAccess.pdb
 F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW\bin\Debug\net5.0\PetCareISW.Entities.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\BackendPetCare\PetCareISW\obj\Debug\net5.0\PetCareISW.MvcApplicationPartsAssemblyInfo.cs
