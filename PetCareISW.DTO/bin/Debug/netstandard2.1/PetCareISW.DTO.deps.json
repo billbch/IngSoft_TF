@@ -31,7 +31,7 @@
         "dependencies": {
           "System.Memory": "4.5.4",
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
-        },
+        }, 
         "runtime": {
           "lib/netstandard2.0/Google.Protobuf.dll": {
             "assemblyVersion": "3.14.0.0",
