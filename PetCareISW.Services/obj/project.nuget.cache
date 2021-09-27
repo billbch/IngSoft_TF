@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Irt6sGHWFaIkQ8PtGVOAMpwgQxjnoy1JC7F4L/z/l2J+jCvoPBfqee0YeH8UXODfYy2Ew6ASz71DnXpTup7A+Q==",
+  "dgSpecHash": "c2Z9YR72NGkGhdSl3kYr66sNxgEkHaV/Ms3LSOKe3lNtzybir0XJpVtTcUBPQ6JV6VWzpqsj93yqmrgcZ0O23Q==",
   "success": true,
   "projectFilePath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
   "expectedPackageFiles": [
@@ -142,5 +142,12 @@
     "C:\\Users\\franc\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Services\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

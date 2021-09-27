@@ -19,27 +19,37 @@ namespace PetCareISW.DataAccess
 
         public async Task Create(VaccinationRecord entity)
         {
-            throw new NotImplementedException();
+            await _context.Set<VaccinationRecord>().AddAsync(entity);
+            await _context.SaveChangesAsync();
         }
 
         public async Task Delete(int id)
         {
-            throw new NotImplementedException();
+            _context.Entry(new VaccinationRecord
+            {
+                Id = id
+            }).State = EntityState.Deleted;
+            await _context.SaveChangesAsync();
         }
 
         public async Task<ICollection<VaccinationRecord>> GetCollection(string filter)
         {
-            throw new NotImplementedException();
+            var collection = await _context.VaccinationRecords
+                .Where(c => c.Name.Contains(filter)).ToListAsync();
+
+            return collection;
         }
 
         public async Task<VaccinationRecord> GetItem(int id)
         {
-            throw new NotImplementedException();
+            return await _context.VaccinationRecords.FindAsync(id);
         }
 
         public async Task Update(VaccinationRecord entity)
         {
-            throw new NotImplementedException();
+            _context.Set<VaccinationRecord>().Attach(entity);
+            _context.Entry(entity).State = EntityState.Modified;
+            await _context.SaveChangesAsync(); ;
         }
     }
 }

@@ -7683,7 +7683,8 @@
       "Microsoft.Extensions.DependencyInjection >= 5.0.2",
       "MySql.EntityFrameworkCore >= 5.0.5",
       "PetCareISW.DTO >= 1.0.0",
-      "PetCareISW.DataAccess >= 1.0.0"
+      "PetCareISW.DataAccess >= 1.0.0",
+      "PetCareISW.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7718,6 +7719,9 @@
             },
             "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
               "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
+            },
+            "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
+              "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj"
             }
           }
         }
@@ -7777,5 +7781,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Services\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

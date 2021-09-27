@@ -35,3 +35,37 @@ C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2
 C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DTO.pdb
 C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
 C:\Users\Sebastian\Desktop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CopyComplete
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.AssemblyReference.cache
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.AssemblyInfoInputs.cache
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.AssemblyInfo.cs
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CoreCompileInputs.cache
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.deps.json
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DataAccess.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DTO.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Entities.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DataAccess.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DTO.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CopyComplete
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.deps.json
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.dll
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Services.pdb
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DataAccess.dll
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DTO.dll
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Entities.dll
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DataAccess.pdb
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.DTO.pdb
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.AssemblyReference.cache
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.AssemblyInfoInputs.cache
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.AssemblyInfo.cs
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CoreCompileInputs.cache
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.csproj.CopyComplete
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.dll
+D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Services\obj\Debug\netstandard2.1\PetCareISW.Services.pdb
