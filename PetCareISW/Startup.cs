@@ -32,8 +32,21 @@ namespace PetCareISW
             services.AddInjection();
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer(@"Server=DESKTOP-44K5N6D\MSSQLSERVER2;Integrated Security=true;");
-                //options.UseSqlServer(@"Data Source=DESKTOP-NRGUKED;Initial Catalog=EcommerceDb;Integrated Security=True");
+               // JOAQUIN CONNECTION
+                options.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Integrated Security=true;");
+              
+              //
+              //optionsBuilder.UseSqlServer(@"Server = DESKTOP-44K5N6D\MSSQLSERVER2;Database=PetCareISW;Integrated Security=true;");
+
+
+              //  
+              //options.UseSqlServer(@"Data Source=DESKTOP-NRGUKED;Initial Catalog=EcommerceDb;Integrated Security=True");
+                
+                
+                
+                
+                
+                
                 // options=>options.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW"));
             });
             services.AddControllers();

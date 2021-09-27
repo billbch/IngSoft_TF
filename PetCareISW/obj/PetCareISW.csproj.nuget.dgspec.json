@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj": {}
+    "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj": {}
   },
   "projects": {
-    "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
+    "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj",
+        "projectUniqueName": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj",
         "projectName": "PetCareISW.DataAccess",
-        "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
-        "outputPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\obj\\",
+        "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\EQUIPO\\.nuget\\packages\\",
+        "outputPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\EQUIPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -28,8 +34,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
-                "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj"
+              "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
+                "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj"
               }
             }
           }
@@ -90,18 +96,24 @@
         }
       }
     },
-    "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
+    "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
+        "projectUniqueName": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
         "projectName": "PetCareISW.DTO",
-        "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
-        "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
-        "outputPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\obj\\",
+        "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
+        "packagesPath": "C:\\Users\\EQUIPO\\.nuget\\packages\\",
+        "outputPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DTO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\EQUIPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -168,18 +180,24 @@
         }
       }
     },
-    "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
+    "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj",
+        "projectUniqueName": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj",
         "projectName": "PetCareISW.Entities",
-        "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj",
-        "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
-        "outputPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Entities\\obj\\",
+        "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj",
+        "packagesPath": "C:\\Users\\EQUIPO\\.nuget\\packages\\",
+        "outputPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\EQUIPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -250,18 +268,24 @@
         }
       }
     },
-    "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {
+    "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
+        "projectUniqueName": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
         "projectName": "PetCareISW.Services",
-        "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
-        "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
-        "outputPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\obj\\",
+        "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
+        "packagesPath": "C:\\Users\\EQUIPO\\.nuget\\packages\\",
+        "outputPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\EQUIPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -274,14 +298,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
-                "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
+              "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
+                "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
               },
-              "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
-                "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
+              "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
+                "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
               },
-              "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
-                "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj"
+              "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
+                "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj"
               }
             }
           }
@@ -342,18 +366,24 @@
         }
       }
     },
-    "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj": {
+    "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
+        "projectUniqueName": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
         "projectName": "PetCareISW",
-        "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
-        "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
-        "outputPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW\\obj\\",
+        "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
+        "packagesPath": "C:\\Users\\EQUIPO\\.nuget\\packages\\",
+        "outputPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\EQUIPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -366,14 +396,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
-                "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
+              "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
+                "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
               },
-              "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
-                "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
+              "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
+                "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
               },
-              "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {
-                "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj"
+              "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {
+                "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj"
               }
             }
           }

@@ -48,14 +48,14 @@ namespace PetCareISW.Controllers
 
         [HttpPut]
         [Route("{id:int}")]
-        public async Task Put([FromBody] PersonProfileDTO request)
+        public async Task Put([FromBody] PersonProfileDTO request,int id)
         {
-            await _personProfileService.Update(request);
+            await _personProfileService.Update(request,id);
 
         }
         [HttpDelete]
         [Route("{id:int}")]
-        public async Task Delete([FromBody] int id)
+        public async Task Delete(int id)
         {
             await _personProfileService.Delete(id);
 
