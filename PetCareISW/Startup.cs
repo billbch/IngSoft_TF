@@ -32,7 +32,7 @@ namespace PetCareISW
             services.AddInjection();
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer(@"Server=LAPTOP-6QJ5S582\MSSQLSERVER01;Database=PetCareISW;Integrated Security=true;");
+                options.UseSqlServer(@"Server=DESKTOP-44K5N6D\MSSQLSERVER2;Integrated Security=true;");
                 //options.UseSqlServer(@"Data Source=DESKTOP-NRGUKED;Initial Catalog=EcommerceDb;Integrated Security=True");
                 // options=>options.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW"));
             });

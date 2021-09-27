@@ -27,6 +27,6 @@ namespace PetCareISW.Entities
         [Required]
         public int BusinessId { get; set; }
 
-        //public Business Business { get; set; }
+        public Business Business { get; set; }
     }
 }

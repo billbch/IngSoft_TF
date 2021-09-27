@@ -14,5 +14,6 @@ namespace PetCareISW.DTO
         public string AttendantName { get; set; }
         public bool Gender { get; set; }
         public DateTime CreateAt { get; set; }
+        public int MedicalProfileId { get; set; }
     }
 }

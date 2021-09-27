@@ -37,6 +37,16 @@ namespace PetCareISW.Entities
         [StringLength(15)]
         public string ProductTypeName { get; set; }
 
+        [Required]
+        public int BusinessId { get; set; }
+
+        public Business Business { get; set; }
+
+        [Required]
+        public int PersonProfileId { get; set; }
+
+        public PersonProfile PersonProfile { get; set; }
+
 
     }
 

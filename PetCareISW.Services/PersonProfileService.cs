@@ -56,7 +56,7 @@ namespace PetCareISW.Services
             return collection
                 .Select(c => new PersonProfileDTO
                 {
-                    //Id=c.Id,
+                    Id=c.Id,
                     Name=c.Name,
                     Email=c.Email,
                     Password=c.Password,
@@ -78,7 +78,7 @@ namespace PetCareISW.Services
 
             response.Result = new PersonProfileDTO
             {
-                //Id = personprofile.Id,
+                Id = personprofile.Id,
                 Name = personprofile.Name,
                 Email = personprofile.Email,
                 Password = personprofile.Password,

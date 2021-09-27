@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PetCareISW.DataAccess
 {
-    interface IMedicalRecordRepository
+    public interface IMedicalRecordRepository
     {
         Task<ICollection<MedicalRecord>> GetCollection(string filter);
 

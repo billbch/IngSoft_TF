@@ -292,3 +292,8 @@ D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW\obj\Debug
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW\obj\Debug\net5.0\PetCareISW.dll
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW\obj\Debug\net5.0\ref\PetCareISW.dll
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW\obj\Debug\net5.0\PetCareISW.pdb
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW\bin\Debug\net5.0\PetCareISW.DTO.dll
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW\bin\Debug\net5.0\PetCareISW.Services.dll
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW\bin\Debug\net5.0\PetCareISW.DTO.pdb
+D:\U\7\Ingenieria de Software\codigo\IngSoft_TF\PetCareISW\bin\Debug\net5.0\PetCareISW.Services.pdb
