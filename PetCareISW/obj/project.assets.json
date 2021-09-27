@@ -70,6 +70,18 @@
           "lib/netstandard2.0/K4os.Hash.xxHash.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Mvc.Versioning/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -1735,6 +1747,22 @@
           "bin/placeholder/PetCareISW.DataAccess.dll": {}
         }
       },
+      "PetCareISW.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "MySql.EntityFrameworkCore": "5.0.5"
+        },
+        "compile": {
+          "bin/placeholder/PetCareISW.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetCareISW.DTO.dll": {}
+        }
+      },
       "PetCareISW.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -1750,6 +1778,26 @@
         },
         "runtime": {
           "bin/placeholder/PetCareISW.Entities.dll": {}
+        }
+      },
+      "PetCareISW.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "MySql.EntityFrameworkCore": "5.0.5",
+          "PetCareISW.DTO": "1.0.0",
+          "PetCareISW.DataAccess": "1.0.0",
+          "PetCareISW.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PetCareISW.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetCareISW.Services.dll": {}
         }
       }
     }
@@ -1871,6 +1919,25 @@
         "lib/netstandard1.6/K4os.Hash.xxHash.xml",
         "lib/netstandard2.0/K4os.Hash.xxHash.dll",
         "lib/netstandard2.0/K4os.Hash.xxHash.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning/5.0.0": {
+      "sha512": "mN9IARvNpHMBD2/oGmp5Bxp1Dg45Hfcp+LWaAyTtL2HisWLMOIcf0Ox1qW9IvCvdbHM+2A9dWEInhiqBsNxsJA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.versioning/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "icon.png",
+        "lib/net5.0/Microsoft.AspNetCore.Mvc.Versioning.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Mvc.Versioning.pdb",
+        "lib/net5.0/Microsoft.AspNetCore.Mvc.Versioning.xml",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.pdb",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.xml",
+        "microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.versioning.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -6355,38 +6422,52 @@
       "path": "../PetCareISW.DataAccess/PetCareISW.DataAccess.csproj",
       "msbuildProject": "../PetCareISW.DataAccess/PetCareISW.DataAccess.csproj"
     },
+    "PetCareISW.DTO/1.0.0": {
+      "type": "project",
+      "path": "../PetCareISW.DTO/PetCareISW.DTO.csproj",
+      "msbuildProject": "../PetCareISW.DTO/PetCareISW.DTO.csproj"
+    },
     "PetCareISW.Entities/1.0.0": {
       "type": "project",
       "path": "../PetCareISW.Entities/PetCareISW.Entities.csproj",
       "msbuildProject": "../PetCareISW.Entities/PetCareISW.Entities.csproj"
+    },
+    "PetCareISW.Services/1.0.0": {
+      "type": "project",
+      "path": "../PetCareISW.Services/PetCareISW.Services.csproj",
+      "msbuildProject": "../PetCareISW.Services/PetCareISW.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.AspNetCore.Mvc.Versioning >= 5.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Abstractions >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.10",
+      "Microsoft.Extensions.DependencyInjection >= 5.0.2",
       "MySql.EntityFrameworkCore >= 5.0.5",
+      "PetCareISW.DTO >= 1.0.0",
       "PetCareISW.DataAccess >= 1.0.0",
+      "PetCareISW.Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bill\\.nuget\\packages\\": {}
+    "C:\\Users\\franc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
+      "projectUniqueName": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
       "projectName": "PetCareISW",
-      "projectPath": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
-      "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
-      "outputPath": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW\\obj\\",
+      "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
+      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6400,8 +6481,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
-              "projectPath": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
+            "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
+              "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
+            },
+            "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
+              "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
+            },
+            "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {
+              "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj"
             }
           }
         }
@@ -6416,6 +6503,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Versioning": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.10, )"
@@ -6437,6 +6528,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.10, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[5.0.2, )"
           },
           "MySql.EntityFrameworkCore": {
             "target": "Package",
@@ -6468,5 +6563,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

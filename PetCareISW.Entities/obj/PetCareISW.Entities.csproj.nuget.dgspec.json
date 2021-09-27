@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {}
+    "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {}
   },
   "projects": {
-    "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
+    "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj",
+        "projectUniqueName": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj",
         "projectName": "PetCareISW.Entities",
-        "projectPath": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj",
-        "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
-        "outputPath": "D:\\U\\7\\Ingenieria de Software\\franhecso-codigo\\IngSoft_TF\\PetCareISW.Entities\\obj\\",
+        "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
