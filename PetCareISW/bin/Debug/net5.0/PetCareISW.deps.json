@@ -1567,7 +1567,8 @@
           "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "MySql.EntityFrameworkCore": "5.0.5",
           "PetCareISW.DTO": "1.0.0",
-          "PetCareISW.DataAccess": "1.0.0"
+          "PetCareISW.DataAccess": "1.0.0",
+          "PetCareISW.Entities": "1.0.0"
         },
         "runtime": {
           "PetCareISW.Services.dll": {}
