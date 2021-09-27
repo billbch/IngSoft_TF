@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PetCareISW.DataAccess
 {
-    interface IVaccinationRecordRepository
+    public interface IVaccinationRecordRepository
     {
         Task<ICollection<VaccinationRecord>> GetCollection(string filter);
 

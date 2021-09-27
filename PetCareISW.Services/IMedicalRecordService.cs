@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace PetCareISW.Services
 {
-    interface IMedicalRecordService
+    public interface IMedicalRecordService
     {
         Task<ICollection<MedicalRecordDto>> GetCollection(string filter);
 
-        Task<ResponseDto<MedicalRecordDto>> GetBusiness(int id);
+        Task<ResponseDto<MedicalRecordDto>> GetMedicalRecord(int id);
 
         Task Create(MedicalRecordDto entity);
 

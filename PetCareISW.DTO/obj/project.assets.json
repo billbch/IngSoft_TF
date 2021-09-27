@@ -1507,19 +1507,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\franc\\.nuget\\packages\\": {}
+    "C:\\Users\\Bill\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
+      "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
       "projectName": "PetCareISW.DTO",
-      "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
-      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\obj\\",
+      "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
+      "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
+      "outputPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1586,13 +1586,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -22,7 +22,7 @@ namespace PetCareISW.Entities
         [Required]
         public int PersonProfileId { get; set; }
 
-        public PersonProfile PersonProfile { get; set; }
+        //public PersonProfile PersonProfile { get; set; }
 
         [Required]
         public int BusinessId { get; set; }

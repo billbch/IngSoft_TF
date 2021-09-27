@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PetCareISW.DataAccess
 {
-    class MedicalRecordRepository : IMedicalRecordRepository
+    public class MedicalRecordRepository : IMedicalRecordRepository
     {
 
         private readonly AppDbContext _context;

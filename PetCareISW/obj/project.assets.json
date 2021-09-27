@@ -6455,19 +6455,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\franc\\.nuget\\packages\\": {}
+    "C:\\Users\\Bill\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
+      "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
       "projectName": "PetCareISW",
-      "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
-      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW\\obj\\",
+      "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW\\PetCareISW.csproj",
+      "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
+      "outputPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6481,14 +6481,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
-              "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
+            "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
+              "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
             },
-            "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
-              "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
+            "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
+              "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
             },
-            "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {
-              "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj"
+            "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj": {
+              "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj"
             }
           }
         }
@@ -6563,13 +6563,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
