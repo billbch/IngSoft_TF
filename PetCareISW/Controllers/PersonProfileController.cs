@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 
 namespace PetCareISW.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
+    [ApiVersion("1.0")]
     [ApiController]
     public class PersonProfileController : Controller
     {
