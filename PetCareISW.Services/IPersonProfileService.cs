@@ -14,7 +14,7 @@ namespace PetCareISW.Services
         Task<ResponseDto<PersonProfileDTO>> GetItem(int id);
 
         Task Create(PersonProfileDTO personprofile);
-        Task Update(PersonProfileDTO personprofile);
+        Task Update(PersonProfileDTO personprofile, int id);
         Task Delete(int id);
     }
 }
