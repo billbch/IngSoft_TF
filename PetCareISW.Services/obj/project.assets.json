@@ -7693,11 +7693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
+      "projectUniqueName": "D:\\U\\7\\Ingenieria de Software\\codigo-actualizado\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
       "projectName": "PetCareISW.Services",
-      "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
+      "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo-actualizado\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
       "packagesPath": "C:\\Users\\Bill\\.nuget\\packages\\",
-      "outputPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Services\\obj\\",
+      "outputPath": "D:\\U\\7\\Ingenieria de Software\\codigo-actualizado\\IngSoft_TF\\PetCareISW.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7714,14 +7714,14 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
-              "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
+            "D:\\U\\7\\Ingenieria de Software\\codigo-actualizado\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
+              "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo-actualizado\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
             },
-            "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
-              "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
+            "D:\\U\\7\\Ingenieria de Software\\codigo-actualizado\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
+              "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo-actualizado\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
             },
-            "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
-              "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj"
+            "D:\\U\\7\\Ingenieria de Software\\codigo-actualizado\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
+              "projectPath": "D:\\U\\7\\Ingenieria de Software\\codigo-actualizado\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj"
             }
           }
         }
