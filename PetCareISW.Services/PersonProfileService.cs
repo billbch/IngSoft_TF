@@ -89,16 +89,19 @@ namespace PetCareISW.Services
             return response;
         }
 
-        public async Task Update(PersonProfileDTO personprofile)
+        public async Task Update(PersonProfileDTO personprofile, int id)
         {
             await _personProfileRepository.Update(new PersonProfile
             {
 
+                Id = id,
                 Name = personprofile.Name,
+                LastName = personprofile.LastName,
                 Email = personprofile.Email,
                 Password = personprofile.Password,
                 Document = personprofile.Document,
-                Rol = personprofile.Rol
+                Rol = personprofile.Rol,
+                Photo = personprofile.Photo
 
 
             });
