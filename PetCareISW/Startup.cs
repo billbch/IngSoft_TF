@@ -50,7 +50,17 @@ namespace PetCareISW
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PetCareAPI", Version = "v1" });
             });
-            services.AddHttpsRedirection(options => { options.HttpsPort = 443; });
+
+            services
+                .AddHttpsRedirection(options => { options.HttpsPort = 443; })
+                .AddMvcCore()
+                .AddCors(options =>
+                {
+                    options.AddPolicy("CorsPolicy",
+                        builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+                });
             services.Configure<ForwardedHeadersOptions>(options =>
             {
                 options.KnownNetworks.Clear();
@@ -80,12 +90,29 @@ namespace PetCareISW
             {
                 endpoints.MapControllers();
             });
-            if (env.IsProduction())
+            /*if (env.IsProduction())
             {
                 app
                     .UseForwardedHeaders()
                     .UseHttpsRedirection();
+            }*/
+            app.UseForwardedHeaders();
+
+            if (!string.IsNullOrEmpty(Environment.GetEnvironmentVariable("DYNO")))
+            {
+                Console.WriteLine("Use https redirection");
+                app.UseHttpsRedirection();
             }
+
+            app
+                .UseRouting()
+                .UseDefaultFiles()
+                .UseStaticFiles()
+                .UseCors("CorsPolicy")
+                .UseEndpoints(endpoints =>
+                {
+                    endpoints.MapDefaultControllerRoute();
+                });
         }
     }
 }
