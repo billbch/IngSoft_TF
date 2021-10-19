@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -32,27 +33,30 @@ namespace PetCareISW
             services.AddInjection();
             services.AddDbContext<AppDbContext>(options =>
             {
-               // JOAQUIN CONNECTION
-                options.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Integrated Security=true;");
-              
-              //
-              //optionsBuilder.UseSqlServer(@"Server = DESKTOP-44K5N6D\MSSQLSERVER2;Database=PetCareISW;Integrated Security=true;");
+                options.UseSqlServer(@"Server=LAPTOP-6QJ5S582\MSSQLSERVER01; Database=PetCareISW; Integrated Security=true;");
+                // JOAQUIN CONNECTION
+                //options.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Integrated Security=true;");
+
+                //
+                //optionsBuilder.UseSqlServer(@"Server = DESKTOP-44K5N6D\MSSQLSERVER2;Database=PetCareISW;Integrated Security=true;");
 
 
-              //  
-              //options.UseSqlServer(@"Data Source=DESKTOP-NRGUKED;Initial Catalog=EcommerceDb;Integrated Security=True");
-                
-                
-                
-                
-                
-                
+                //  
                 // options=>options.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW"));
+                //options.UseSqlServer(@"Data Source=DESKTOP-NRGUKED;Initial Catalog=EcommerceDb;Integrated Security=True");
             });
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PetCareAPI", Version = "v1" });
+            });
+            services.AddHttpsRedirection(options => { options.HttpsPort = 443; });
+            services.Configure<ForwardedHeadersOptions>(options =>
+            {
+                options.KnownNetworks.Clear();
+                options.KnownProxies.Clear();
+                options.ForwardedHeaders =
+                    ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
             });
         }
 
@@ -76,6 +80,12 @@ namespace PetCareISW
             {
                 endpoints.MapControllers();
             });
+            if (env.IsProduction())
+            {
+                app
+                    .UseForwardedHeaders()
+                    .UseHttpsRedirection();
+            }
         }
     }
 }
