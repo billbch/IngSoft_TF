@@ -31,10 +31,9 @@ namespace PetCareISW.DataAccess
             await _context.SaveChangesAsync();
         }
 
-        public async Task<ICollection<MedicalProfile>> GetCollection(string filter)
+        public async Task<ICollection<MedicalProfile>> GetCollection()
         {
             var collection = await _context.MedicalProfiles
-                .Where(c => c.Photo.Contains(filter))
                 .ToListAsync();
 
             return collection;

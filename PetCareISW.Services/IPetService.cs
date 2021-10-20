@@ -8,12 +8,12 @@ namespace PetCareISW.Services
 {
     public interface IPetService
     {
-        Task<ICollection<PetDto>> GetCollection(string filter);
+        Task<ICollection<PetDto>> GetCollection();
         Task<ResponseDto<PetDto>> GetCustomer(int id);
 
-        Task Create(PetDto request);
+        Task Create(PetDto_WithoutID request);
 
-        Task Update(int id, PetDto request);
+        Task Update(PetDto_WithoutID request, int id);
 
         Task Delete(int id);
     }

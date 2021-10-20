@@ -8,12 +8,12 @@ namespace PetCareISW.Services
 {
     public interface IMedicalProfileService
     {
-        Task<ICollection<MedicalProfileDto>> GetCollection(string filter);
+        Task<ICollection<MedicalProfileDto>> GetCollection();
         Task<ResponseDto<MedicalProfileDto>> GetCustomer(int id);
 
-        Task Create(MedicalProfileDto request);
+        Task Create(MedicalProfileDto_WithoutID request);
 
-        Task Update(int id, MedicalProfileDto request);
+        Task Update(MedicalProfileDto_WithoutID request, int id);
 
         Task Delete(int id);
     }

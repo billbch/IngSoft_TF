@@ -18,7 +18,7 @@ namespace PetCareISW.Services
         {
             _repository = repository;
         }
-        public async Task Create(PetDto request)
+        public async Task Create(PetDto_WithoutID request)
         {
             try
             {
@@ -46,9 +46,9 @@ namespace PetCareISW.Services
             await _repository.Delete(id);
         }
 
-        public async Task<ICollection<PetDto>> GetCollection(string filter)
+        public async Task<ICollection<PetDto>> GetCollection()
         {
-            var collection = await _repository.GetCollection(filter ?? string.Empty);
+            var collection = await _repository.GetCollection();
 
             return collection.
                 Select(p => new PetDto
@@ -95,10 +95,11 @@ namespace PetCareISW.Services
             return response;
         }
 
-        public async Task Update(int id, PetDto request)
+        public async Task Update( PetDto_WithoutID request, int id)
         {
             await _repository.Update(new Pet
             {
+                Id=id,
                 Name = request.Name,
                 LastName = request.LastName,
                 BirthDate = request.BirthDate,

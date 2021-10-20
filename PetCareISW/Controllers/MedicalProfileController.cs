@@ -23,9 +23,9 @@ namespace PetCareISW.Controllers
 
 
         [HttpGet]
-        public async Task<IEnumerable<MedicalProfileDto>> List([FromQuery] string filter)
+        public async Task<IEnumerable<MedicalProfileDto>> List()
         {
-            return await _service.GetCollection(filter);
+            return await _service.GetCollection();
         }
 
         [HttpGet]
@@ -36,10 +36,27 @@ namespace PetCareISW.Controllers
         }
 
         [HttpPost]
-        public async Task Post([FromBody] MedicalProfileDto request)
+        public async Task Post([FromBody] MedicalProfileDto_WithoutID request)
         {
             await _service.Create(request);
         }
+
+        [HttpPut]
+        [Route("{id:int}")]
+        public async Task Put([FromBody] MedicalProfileDto_WithoutID request, int id)
+        {
+            await _service.Update(request, id);
+
+        }
+        [HttpDelete]
+        [Route("{id:int}")]
+        public async Task Delete(int id)
+        {
+            await _service.Delete(id);
+
+        }
+
+
 
     }
 }

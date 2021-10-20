@@ -31,9 +31,9 @@ namespace PetCareISW.Services
                     Password = personprofile.Password,
                     Document = personprofile.Document,
                     Rol = personprofile.Rol,
-                   // Age = personprofile.Age,
-                   // Phone=personprofile.Phone,
-                    Photo = ""
+                    Age = personprofile.Age,
+                    Phone=personprofile.Phone,
+                    Photo = personprofile.Photo
 
                 }); ;;;
             }
@@ -108,3 +108,4 @@ namespace PetCareISW.Services
         }
     }
 }
+//´pusheando desde vs

@@ -8,7 +8,7 @@ namespace PetCareISW.DataAccess
 {
     public interface IPetRepository
     {
-        Task<ICollection<Pet>> GetCollection(string filter);
+        Task<ICollection<Pet>> GetCollection();
 
         Task<Pet> GetItem(int id);
 

@@ -33,10 +33,10 @@ namespace PetCareISW
             services.AddDbContext<AppDbContext>(options =>
             {
                // JOAQUIN CONNECTION
-                options.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Integrated Security=true;");
+                //options.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Integrated Security=true;");
               
               //
-              //optionsBuilder.UseSqlServer(@"Server = DESKTOP-44K5N6D\MSSQLSERVER2;Database=PetCareISW;Integrated Security=true;");
+              options.UseSqlServer(@"Server = DESKTOP-44K5N6D\MSSQLSERVER2;Database=PetCareISW;Integrated Security=true;");
 
 
               //  
