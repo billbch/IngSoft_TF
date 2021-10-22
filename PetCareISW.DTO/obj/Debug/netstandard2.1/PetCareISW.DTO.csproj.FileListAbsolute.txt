@@ -48,13 +48,3 @@ D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.DTO\obj\D
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.csproj.CoreCompileInputs.cache
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.dll
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.pdb
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.DTO\bin\Debug\netstandard2.1\PetCareISW.DTO.deps.json
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.DTO\bin\Debug\netstandard2.1\PetCareISW.DTO.dll
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.DTO\bin\Debug\netstandard2.1\PetCareISW.DTO.pdb
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.csproj.AssemblyReference.cache
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.GeneratedMSBuildEditorConfig.editorconfig
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.AssemblyInfoInputs.cache
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.AssemblyInfo.cs
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.csproj.CoreCompileInputs.cache
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.dll
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.pdb

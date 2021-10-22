@@ -48,13 +48,3 @@ D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Entities\
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.csproj.CoreCompileInputs.cache
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.dll
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.pdb
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.Entities\bin\Debug\netstandard2.1\PetCareISW.Entities.deps.json
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.Entities\bin\Debug\netstandard2.1\PetCareISW.Entities.dll
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.Entities\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.csproj.AssemblyReference.cache
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.GeneratedMSBuildEditorConfig.editorconfig
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.AssemblyInfoInputs.cache
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.AssemblyInfo.cs
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.csproj.CoreCompileInputs.cache
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.dll
-D:\U\7\Ingenieria de Software\codigo-actualizado\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.pdb

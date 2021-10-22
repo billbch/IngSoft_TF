@@ -14,7 +14,7 @@ namespace PetCareISW.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server = DESKTOP-44K5N6D\MSSQLSERVER2;Database=PetCareISW;Integrated Security=true;");
+            optionsBuilder.UseSqlServer(@"Server = LAPTOP-6QJ5S582\MSSQLSERVER01;Database=PetCareISW;Integrated Security=true;");
             //optionsBuilder.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW2"); 
         }
 

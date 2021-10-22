@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 
 namespace PetCareISW.Controllers
 {
-    [Route("api/v1/[controller]")]
-    [ApiVersion("1.0")]
+    [Route("api/[controller]")]
     [ApiController]
     public class PersonProfileController : Controller
     {
@@ -49,9 +48,9 @@ namespace PetCareISW.Controllers
 
         [HttpPut]
         [Route("{id:int}")]
-        public async Task Put([FromBody] PersonProfileDTO request,int id)
+        public async Task Put([FromBody] PersonProfileDTO request, int id)
         {
-            await _personProfileService.Update(request,id);
+            await _personProfileService.Update(request, id);
 
         }
         [HttpDelete]

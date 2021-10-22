@@ -93,7 +93,6 @@ namespace PetCareISW.Services
         {
             await _personProfileRepository.Update(new PersonProfile
             {
-
                 Id = id,
                 Name = personprofile.Name,
                 LastName = personprofile.LastName,
@@ -103,9 +102,7 @@ namespace PetCareISW.Services
                 Rol = personprofile.Rol,
                 Photo = personprofile.Photo
 
-
             });
         }
     }
 }
-//´pusheando desde vs

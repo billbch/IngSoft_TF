@@ -61,6 +61,8 @@ namespace PetCareISW
                         .AllowAnyMethod()
                         .AllowAnyHeader());
                 });
+
+            services.AddHttpsRedirection(options => { options.HttpsPort = 443; });
             services.Configure<ForwardedHeadersOptions>(options =>
             {
                 options.KnownNetworks.Clear();
@@ -80,39 +82,43 @@ namespace PetCareISW
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PetCareISW v1"));
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
-            app.UseRouting();
+            /*app.UseRouting();
 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
+            });*/
+
             /*if (env.IsProduction())
             {
                 app
                     .UseForwardedHeaders()
                     .UseHttpsRedirection();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PetCareISW v1"));
             }*/
-            app.UseForwardedHeaders();
 
+            app.UseForwardedHeaders();
             if (!string.IsNullOrEmpty(Environment.GetEnvironmentVariable("DYNO")))
             {
                 Console.WriteLine("Use https redirection");
                 app.UseHttpsRedirection();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PetCareISW v1"));
             }
-
-            app
-                .UseRouting()
-                .UseDefaultFiles()
-                .UseStaticFiles()
-                .UseCors("CorsPolicy")
-                .UseEndpoints(endpoints =>
-                {
-                    endpoints.MapDefaultControllerRoute();
-                });
+            app.UseRouting();
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+            app.UseCors("CorsPolicy");
+            app.UseAuthorization();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }

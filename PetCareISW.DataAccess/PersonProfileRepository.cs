@@ -25,7 +25,6 @@ namespace PetCareISW.Services
 
         public async Task Delete(int id)
         {
-            
             _context.Entry(new PersonProfile
             {
                 Id = id
