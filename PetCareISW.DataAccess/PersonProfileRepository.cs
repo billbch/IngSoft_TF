@@ -42,8 +42,6 @@ namespace PetCareISW.Services
 
         }
 
-
-
         public async Task<PersonProfile> GetItem(int id)
         {
             return await _context.PeopleProfiles.FindAsync(id);

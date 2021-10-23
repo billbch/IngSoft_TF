@@ -83,7 +83,7 @@ namespace PetCareISW.Services
         {
             await _repository.Update(new Review
             {
-                Id = request.Id,
+                Id = id,
                 Qualification = request.Qualification,
                 Comment = request.Comment,
                 PersonProfileId = request.PersonProfileId,

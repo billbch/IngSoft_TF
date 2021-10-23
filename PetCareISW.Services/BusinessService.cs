@@ -94,6 +94,7 @@ namespace PetCareISW.Services
         {
             await _repository.Update(new Business
             {
+                Id = id,
                 RUC = request.RUC,
                 BusinessName = request.BusinessName,
                 District = request.District,

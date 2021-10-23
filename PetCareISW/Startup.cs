@@ -34,7 +34,7 @@ namespace PetCareISW
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(@"Server=LAPTOP-6QJ5S582\MSSQLSERVER01; Database=PetCareISW; Integrated Security=true;");
-                // JOAQUIN CONNECTION
+                //options.UseMySQL("Server=us-cdbr-east-04.cleardb.com/;userid=bed40aedacd27b;Password=cb3dc8b6;Database=heroku_cf2c2f5d2d83558");                // JOAQUIN CONNECTION
                 //options.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Integrated Security=true;");
 
                 //
