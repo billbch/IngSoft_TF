@@ -10,6 +10,9 @@ namespace PetCareISW.DataAccess
     {
         Task<ICollection<Business>> GetCollection(string filter);
 
+        Task<ICollection<Business>> ListByAddressAsync(string Address);
+
+
         Task<Business> GetItem(int id);
 
         Task Create(Business entity);

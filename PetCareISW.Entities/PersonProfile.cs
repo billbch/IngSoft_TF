@@ -35,10 +35,12 @@ namespace PetCareISW.Entities
         [StringLength(100)]
         public string Photo { get; set; }
 
+        public IList<Pet> Pets { get; set; } = new List<Pet>();
+        //      public IList<PersonRequest> Requests { get; set; } = new List<PersonRequest>();
+        public IList<Review> Reviews { get; set; } = new List<Review>();
     }
 
-    //    public IList<Pet> Pets { get; set; } = new List<Pet>();
-    //      public IList<PersonRequest> Requests { get; set; } = new List<PersonRequest>();
-    //     public IList<Review> Reviews { get; set; } = new List<Review>();
+
 }
+
 

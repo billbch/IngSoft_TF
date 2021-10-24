@@ -48,3 +48,13 @@ D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Entities\
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.csproj.CoreCompileInputs.cache
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.dll
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.Entities\bin\Debug\netstandard2.1\PetCareISW.Entities.deps.json
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.Entities\bin\Debug\netstandard2.1\PetCareISW.Entities.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.Entities\bin\Debug\netstandard2.1\PetCareISW.Entities.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.GeneratedMSBuildEditorConfig.editorconfig
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.AssemblyInfoInputs.cache
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.AssemblyInfo.cs
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.csproj.CoreCompileInputs.cache
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.Entities\obj\Debug\netstandard2.1\PetCareISW.Entities.csproj.AssemblyReference.cache

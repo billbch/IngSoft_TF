@@ -12,7 +12,8 @@ namespace PetCareISW.DTO
         public string District { get; set; }
         public string City { get; set; }
         public string Address { get; set; }
-        public string email { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
         public float Score { get; set; }
         public string Description { get; set; }
     }
