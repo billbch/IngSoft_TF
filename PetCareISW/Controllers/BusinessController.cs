@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using PetCareISW.Services;
 using PetCareISW.DTO;
+using PetCareISW.Entities;
 
 namespace PetCareISW.Controllers
 {
@@ -21,8 +22,16 @@ namespace PetCareISW.Controllers
             _service = service;
         }
 
-
         [HttpGet]
+        [Route("/zone")]
+        public async Task<IEnumerable<BusinessDto>> GetProviderbyAdress([FromQuery] string city)
+        {
+            return await _service.ListByAddressAsync(city);
+        
+            
+        }
+        [HttpGet]
+        
         public async Task<IEnumerable<BusinessDto>> List([FromQuery] string filter)
         {
             return await _service.GetCollection(filter);

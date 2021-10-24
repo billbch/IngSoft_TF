@@ -13,29 +13,41 @@ namespace PetCareISW.Services
     public class PersonProfileService : IPersonProfileService
     {
         private readonly IPersonProfileRepository _personProfileRepository;
-        public PersonProfileService(IPersonProfileRepository personProfileRepository)
+        private readonly IAccountRepository _accountRepository;
+        private readonly IUnitOfWork _unitOfWork;
+        public PersonProfileService(IPersonProfileRepository personProfileRepository, IAccountRepository accountRepository, IUnitOfWork unitOfWork)
         {
             _personProfileRepository = personProfileRepository;
+            _accountRepository = accountRepository;
+            _unitOfWork = unitOfWork;
         }
-        public async Task Create(PersonProfileDTO personprofile)
+        public async Task Create(PersonProfileDTO personprofileDTO)
         {
+            Account account = new Account();
+            PersonProfile personProfile = new PersonProfile
+            {
 
+                Name = personprofileDTO.Name,
+                LastName = personprofileDTO.LastName,
+                Email = personprofileDTO.Email,
+                Password = personprofileDTO.Password,
+                Document = personprofileDTO.Document,
+                Rol = personprofileDTO.Rol,
+                // Age = personprofile.Age,
+                // Phone=personprofile.Phone,
+                Photo = ""
+
+            };
             try
             {
-                await _personProfileRepository.Create(new PersonProfile
-                {
-
-                    Name = personprofile.Name,
-                    LastName = personprofile.LastName,
-                    Email = personprofile.Email,
-                    Password = personprofile.Password,
-                    Document = personprofile.Document,
-                    Rol = personprofile.Rol,
-                   // Age = personprofile.Age,
-                   // Phone=personprofile.Phone,
-                    Photo = ""
-
-                }); ;;;
+                await _personProfileRepository.Create(personProfile); ;;;
+                account.User = personProfile.Email;
+                account.Password = personProfile.Password;
+                await _unitOfWork.CompleteAsync();
+                account.Idf = personProfile.Id;
+                account.RolId = 0;
+               
+                await _accountRepository.AddAsyn(account);
             }
             catch (Exception ex)
             {

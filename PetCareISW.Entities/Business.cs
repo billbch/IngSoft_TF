@@ -33,7 +33,11 @@ namespace PetCareISW.Entities
 
         [Required]
         [StringLength(30)]
-        public string email { get; set; }
+        public string Email { get; set; }
+
+        [Required]
+        [StringLength(30)]
+        public string Password { get; set; }
 
         [Required]
         public float Score { get; set; }

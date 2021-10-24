@@ -40,7 +40,10 @@ namespace PetCareISW.Services
             services.AddTransient<IMedicalRecordRepository, MedicalRecordRepository>();
             services.AddTransient<IMedicalRecordService, MedicalRecordService>();
 
-            
+            services.AddTransient<IAccountRepository, AccountRepository>();
+            services.AddTransient<IUserService, UserService>();
+
+            services.AddScoped<IUnitOfWork, unitOfWork>();
 
             return services.AddScoped<IBusinessRepository, BusinessRepository>()
                 .AddScoped<IBusinessService, BusinessService>();

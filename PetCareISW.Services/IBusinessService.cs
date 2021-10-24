@@ -12,10 +12,12 @@ namespace PetCareISW.Services
 
         Task<ResponseDto<BusinessDto>> GetBusiness(int id);
 
+        Task<ICollection<BusinessDto>> ListByAddressAsync(string address);
         Task Create(BusinessDto entity);
 
         Task Update(int id, BusinessDto entity);
 
         Task Delete(int id);
+
     }
 }

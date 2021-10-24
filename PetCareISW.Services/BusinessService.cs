@@ -12,10 +12,14 @@ namespace PetCareISW.Services
     public class BusinessService : IBusinessService
     {
         private readonly IBusinessRepository _repository;
-
-        public BusinessService(IBusinessRepository repository)
+        private readonly IAccountRepository _accountRepository;
+        private readonly IUnitOfWork _unitOfWork;
+        public BusinessService(IBusinessRepository repository, IAccountRepository accountRepository, IUnitOfWork unitOfWork)
         {
             _repository = repository;
+            _accountRepository = accountRepository;
+            _unitOfWork = unitOfWork;
+
         }
 
         public async Task<ICollection<BusinessDto>> GetCollection(string filter)
@@ -31,13 +35,38 @@ namespace PetCareISW.Services
                     District = p.District,
                     City = p.City,
                     Address = p.Address,
-                    email = p.email,
+                    Email = p.Email,
+                    Password = p.Password,
                     Score = p.Score,
                     Description = p.Description
                 })
                 .ToList();
 
         }
+
+
+        public async Task<ICollection<BusinessDto>> ListByAddressAsync(string address)
+        {
+            var collection = await _repository.ListByAddressAsync(address);
+
+            return collection.
+                Select(p => new BusinessDto
+                {
+                    Id = p.Id,
+                    RUC = p.RUC,
+                    BusinessName = p.BusinessName,
+                    District = p.District,
+                    City = p.City,
+                    Address = p.Address,
+                    Email = p.Email,
+                    Password = p.Password,
+                    Score = p.Score,
+                    Description = p.Description
+                })
+                .ToList();
+            
+        }
+
         public async Task<ResponseDto<BusinessDto>> GetBusiness(int id)
         {
             var response = new ResponseDto<BusinessDto>();
@@ -57,7 +86,8 @@ namespace PetCareISW.Services
                 District = business.District,
                 City = business.City,
                 Address = business.Address,
-                email = business.email,
+                Email = business.Email,
+                Password= business.Password,
                 Score = business.Score,
                 Description = business.Description
             };
@@ -71,17 +101,28 @@ namespace PetCareISW.Services
         {
             try
             {
-                await _repository.Create(new Business
+                Account account = new Account();
+                Business business = new Business
                 {
                     RUC = request.RUC,
                     BusinessName = request.BusinessName,
                     District = request.District,
                     City = request.City,
                     Address = request.Address,
-                    email = request.email,
+                    Email = request.Email,
+                    Password = request.Password,
                     Score = request.Score,
                     Description = request.Description
-                });
+                };
+                await _repository.Create(business);
+                account.User =business.Email;
+                account.Password = business.Password;
+                await _unitOfWork.CompleteAsync();
+                account.Idf =business.Id;
+                account.RolId = 1;
+
+                await _accountRepository.AddAsyn(account);
+
             }
             catch (Exception ex)
             {
@@ -100,7 +141,8 @@ namespace PetCareISW.Services
                 District = request.District,
                 City = request.City,
                 Address = request.Address,
-                email = request.email,
+                Email = request.Email,
+                Password = request.Password,
                 Score = request.Score,
                 Description = request.Description
             });

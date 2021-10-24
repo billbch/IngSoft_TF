@@ -14,8 +14,10 @@ namespace PetCareISW.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server = LAPTOP-6QJ5S582\MSSQLSERVER01;Database=PetCareISW;Integrated Security=true;");
-            //optionsBuilder.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW2");
+          
+             optionsBuilder.UseSqlServer(@"Server =(localdb)\MSSQLLocalDB;Database=PetCareISW;Integrated Security=true;"); 
+            //  optionsBuilder.UseSqlServer(@"Server = LAPTOP-6QJ5S582\MSSQLSERVER01;Database=PetCareISW;Integrated Security=true;");
+            //   optionsBuilder.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW3");
             //optionsBuilder.UseMySQL("Server=us-cdbr-east-04.cleardb.com/;userid=bed40aedacd27b;Password=cb3dc8b6;Database=heroku_cf2c2f5d2d83558");
         }
 
@@ -27,5 +29,8 @@ namespace PetCareISW.DataAccess
         public DbSet<VaccinationRecord> VaccinationRecords { get; set; }
         public DbSet<MedicalRecord> MedicalRecords { get; set; }
         public DbSet<MedicalProfile> MedicalProfiles { get; set; }
+
+        public DbSet<Account> Accounts { get; set; }
+
     }
 }

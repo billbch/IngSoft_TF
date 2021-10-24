@@ -1,0 +1,27 @@
+﻿
+using PetCareISW.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace PetCareISW.Entities
+{
+    public class Account
+    {
+       
+        public int Id { get; set; }
+        public string User { get; set; }
+        public string Password { get; set; }
+        public int RolId { get; set; }
+        public int Idf { get; set; }
+        public PersonProfile PersonProfile { get; set; }
+        
+        public Business BusinessProfile { get; set; }
+
+   
+     
+
+       
+    }
+}

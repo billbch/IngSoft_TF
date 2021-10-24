@@ -25,7 +25,10 @@ namespace PetCareISW.DataAccess
 
             return collection;
         }
-
+        public async Task<ICollection<Business>> ListByAddressAsync(string address) =>
+        await _context.Businesses
+        .Where(p => p.City == address)
+        .ToListAsync();
         public async Task<Business> GetItem(int id)
         {
             return await _context.Businesses.FindAsync(id);

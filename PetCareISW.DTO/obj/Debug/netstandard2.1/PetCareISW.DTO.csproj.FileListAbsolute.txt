@@ -48,3 +48,13 @@ D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.DTO\obj\D
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.csproj.CoreCompileInputs.cache
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.dll
 D:\Documentos\UPC\Ciclo 7\Ingenieria de Software\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.DTO\bin\Debug\netstandard2.1\PetCareISW.DTO.deps.json
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.DTO\bin\Debug\netstandard2.1\PetCareISW.DTO.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.DTO\bin\Debug\netstandard2.1\PetCareISW.DTO.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.GeneratedMSBuildEditorConfig.editorconfig
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.AssemblyInfoInputs.cache
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.AssemblyInfo.cs
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.csproj.CoreCompileInputs.cache
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.dll
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.pdb
+F:\Cursos\INGENIERÍA DE SOFTWARE\Projects\Backdevelop\new develop\IngSoft_TF\PetCareISW.DTO\obj\Debug\netstandard2.1\PetCareISW.DTO.csproj.AssemblyReference.cache
