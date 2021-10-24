@@ -1710,34 +1710,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EQUIPO\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/g/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
+      "projectUniqueName": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DTO/PetCareISW.DTO.csproj",
       "projectName": "PetCareISW.DTO",
-      "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
-      "packagesPath": "C:\\Users\\EQUIPO\\.nuget\\packages\\",
-      "outputPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.DTO\\obj\\",
+      "projectPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DTO/PetCareISW.DTO.csproj",
+      "packagesPath": "/home/g/.nuget/packages/",
+      "outputPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DTO/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\EQUIPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/g/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1798,7 +1788,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
       }
     }
   }

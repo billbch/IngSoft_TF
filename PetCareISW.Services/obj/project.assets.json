@@ -7614,48 +7614,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EQUIPO\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/g/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
+      "projectUniqueName": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.Services/PetCareISW.Services.csproj",
       "projectName": "PetCareISW.Services",
-      "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.Services\\PetCareISW.Services.csproj",
-      "packagesPath": "C:\\Users\\EQUIPO\\.nuget\\packages\\",
-      "outputPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.Services\\obj\\",
+      "projectPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.Services/PetCareISW.Services.csproj",
+      "packagesPath": "/home/g/.nuget/packages/",
+      "outputPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.Services/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\EQUIPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/g/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj": {
-              "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj"
+            "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DTO/PetCareISW.DTO.csproj": {
+              "projectPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DTO/PetCareISW.DTO.csproj"
             },
-            "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
-              "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj"
+            "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DataAccess/PetCareISW.DataAccess.csproj": {
+              "projectPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DataAccess/PetCareISW.DataAccess.csproj"
             },
-            "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
-              "projectPath": "F:\\Cursos\\INGENIERÍA DE SOFTWARE\\Projects\\Backdevelop\\new develop\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj"
+            "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.Entities/PetCareISW.Entities.csproj": {
+              "projectPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.Entities/PetCareISW.Entities.csproj"
             }
           }
         }
@@ -7716,7 +7706,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
       }
     }
   }
