@@ -14,7 +14,7 @@ namespace PetCareISW.Services
         Task<ResponseDto<AppointmentDTO>> GetItem(int id);
 
         Task Create(AppointmentDTO Appointment);
-        Task Update(AppointmentDTO Appointment);
+        Task Update(int id, AppointmentDTO Appointment);
         Task Delete(int id);
     }
 }

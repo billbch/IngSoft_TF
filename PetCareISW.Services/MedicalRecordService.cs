@@ -18,33 +18,6 @@ namespace PetCareISW.Services
             _repository = repository;
         }
 
-        public async Task Create(MedicalRecordDto request)
-        {
-            try
-            {
-                await _repository.Create(new MedicalRecord
-                {
-                    CreateAt = request.CreateAt,
-                    Description = request.Description,
-                    Type = request.Type,
-                    Action = request.Action,
-                    VetName = request.VetName,
-                    AttendantName = request.AttendantName,
-                    MedicalProfileId = request.MedicalProfileId
-                });
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
-        }
-
-        public async Task Delete(int id)
-        {
-            await _repository.Delete(id);
-        }
-
         public async Task<ResponseDto<MedicalRecordDto>> GetMedicalRecord(int id)
         {
             var response = new ResponseDto<MedicalRecordDto>();
@@ -96,6 +69,7 @@ namespace PetCareISW.Services
         {
             await _repository.Update(new MedicalRecord
             {
+                Id = id,
                 CreateAt = request.CreateAt,
                 Description = request.Description,
                 Type = request.Type,
@@ -103,7 +77,34 @@ namespace PetCareISW.Services
                 VetName = request.VetName,
                 AttendantName = request.AttendantName,
                 MedicalProfileId = request.MedicalProfileId
-            });
+            }) ;
+        }
+
+        public async Task Create(MedicalRecordDto request)
+        {
+            try
+            {
+                await _repository.Create(new MedicalRecord
+                {
+                    CreateAt = request.CreateAt,
+                    Description = request.Description,
+                    Type = request.Type,
+                    Action = request.Action,
+                    VetName = request.VetName,
+                    AttendantName = request.AttendantName,
+                    MedicalProfileId = request.MedicalProfileId
+                });
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
+        public async Task Delete(int id)
+        {
+            await _repository.Delete(id);
         }
     }
 }

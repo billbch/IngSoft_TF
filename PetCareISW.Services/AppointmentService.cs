@@ -17,38 +17,6 @@ namespace PetCareISW.Services
         {
             _AppointmentRepository = AppointmentRepository;
         }
-        public async Task Create(AppointmentDTO Appointment)
-        {
-
-            try
-            {
-                await _AppointmentRepository.Create(new Appointment
-                {
-
-                    CreatedAt = DateTime.Now,
-                    StartTime = Appointment.StartTime,
-                    EndTime= Appointment.EndTime,
-                    Status =true,
-                    Veteryname = Appointment.Veteryname,
-                    ProductTypeName = Appointment.ProductTypeName,
-                   // Age = Appointment.Age,
-                   // Phone=Appointment.Phone,
-                   
-
-                }); ;;;
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
-         
-        }
-
-        public async Task Delete(int id)
-        {
-           await _AppointmentRepository.Delete(id);
-        }
 
         public async Task<ICollection<AppointmentDTO>> GetCollection(/*string filter*/)
         {
@@ -95,11 +63,11 @@ namespace PetCareISW.Services
             return response;
         }
 
-        public async Task Update(AppointmentDTO Appointment)
+        public async Task Update(int id, AppointmentDTO Appointment)
         {
             await _AppointmentRepository.Update(new Appointment
             {
-
+                Id = id,
                 CreatedAt = DateTime.Now,
                 StartTime = Appointment.StartTime,
                 EndTime = Appointment.EndTime,
@@ -109,6 +77,39 @@ namespace PetCareISW.Services
 
 
             });
+        }
+
+        public async Task Create(AppointmentDTO Appointment)
+        {
+
+            try
+            {
+                await _AppointmentRepository.Create(new Appointment
+                {
+
+                    CreatedAt = DateTime.Now,
+                    StartTime = Appointment.StartTime,
+                    EndTime = Appointment.EndTime,
+                    Status = true,
+                    Veteryname = Appointment.Veteryname,
+                    ProductTypeName = Appointment.ProductTypeName,
+                    // Age = Appointment.Age,
+                    // Phone=Appointment.Phone,
+
+
+                }); ; ; ;
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+        }
+
+        public async Task Delete(int id)
+        {
+            await _AppointmentRepository.Delete(id);
         }
     }
 }

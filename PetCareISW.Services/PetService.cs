@@ -99,6 +99,7 @@ namespace PetCareISW.Services
         {
             await _repository.Update(new Pet
             {
+                Id = id,
                 Name = request.Name,
                 LastName = request.LastName,
                 BirthDate = request.BirthDate,

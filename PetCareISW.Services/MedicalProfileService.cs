@@ -17,31 +17,6 @@ namespace PetCareISW.Services
         {
             _repository = repository;
         }
-        public async Task Create(MedicalProfileDto request)
-        {
-            try
-            {
-                await _repository.Create(new MedicalProfile
-                {
-                    Weight = request.Weight,
-                    Height = request.Height,
-                    Lenght = request.Lenght,
-                    Description = request.Description,
-                    Photo = request.Photo,
-                    PetId = request.PetId
-                });
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
-        }
-
-        public async Task Delete(int id)
-        {
-            await _repository.Delete(id);
-        }
 
         public async Task<ICollection<MedicalProfileDto>> GetCollection(string filter)
         {
@@ -92,6 +67,7 @@ namespace PetCareISW.Services
         {
             await _repository.Update(new MedicalProfile
             {
+                Id = id,
                 Weight = request.Weight,
                 Height = request.Height,
                 Lenght = request.Lenght,
@@ -99,6 +75,32 @@ namespace PetCareISW.Services
                 Photo = request.Photo,
                 PetId = request.PetId
             });
+        }
+
+        public async Task Create(MedicalProfileDto request)
+        {
+            try
+            {
+                await _repository.Create(new MedicalProfile
+                {
+                    Weight = request.Weight,
+                    Height = request.Height,
+                    Lenght = request.Lenght,
+                    Description = request.Description,
+                    Photo = request.Photo,
+                    PetId = request.PetId
+                });
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
+        public async Task Delete(int id)
+        {
+            await _repository.Delete(id);
         }
     }
 }
