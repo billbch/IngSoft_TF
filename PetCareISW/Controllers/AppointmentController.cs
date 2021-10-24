@@ -23,8 +23,6 @@ namespace PetCareISW.Controllers
             _appointmentService = appointmentService;
         }
 
-
-
         [HttpGet]
         public async Task<IEnumerable<AppointmentDTO>> List()
         {
@@ -43,6 +41,22 @@ namespace PetCareISW.Controllers
         public async Task Post([FromBody] AppointmentDTO request)
         {
             await _appointmentService.Create(request);
+        }
+
+        [HttpPut]
+        [Route("{id:int}")]
+        public async Task Put([FromBody] AppointmentDTO request, int id)
+        {
+            await _appointmentService.Update(id, request);
+
+        }
+
+        [HttpDelete]
+        [Route("{id:int}")]
+        public async Task Delete(int id)
+        {
+            await _appointmentService.Delete(id);
+
         }
 
     }

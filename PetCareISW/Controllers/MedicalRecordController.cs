@@ -40,5 +40,21 @@ namespace PetCareISW.Controllers
         {
             await _service.Create(request);
         }
+
+        [HttpPut]
+        [Route("{id:int}")]
+        public async Task Put([FromBody] MedicalRecordDto request, int id)
+        {
+            await _service.Update(id, request);
+
+        }
+
+        [HttpDelete]
+        [Route("{id:int}")]
+        public async Task Delete(int id)
+        {
+            await _service.Delete(id);
+
+        }
     }
 }
