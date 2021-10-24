@@ -7566,32 +7566,34 @@
     ]
   },
   "packageFolders": {
-    "/home/g/.nuget/packages/": {}
+    "C:\\Users\\franc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DataAccess/PetCareISW.DataAccess.csproj",
+      "projectUniqueName": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj",
       "projectName": "PetCareISW.DataAccess",
-      "projectPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DataAccess/PetCareISW.DataAccess.csproj",
-      "packagesPath": "/home/g/.nuget/packages/",
-      "outputPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DataAccess/obj/",
+      "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DataAccess\\PetCareISW.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/g/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.Entities/PetCareISW.Entities.csproj": {
-              "projectPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.Entities/PetCareISW.Entities.csproj"
+            "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj": {
+              "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.Entities\\PetCareISW.Entities.csproj"
             }
           }
         }
@@ -7656,7 +7658,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

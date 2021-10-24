@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DTO/PetCareISW.DTO.csproj": {}
+    "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {}
   },
   "projects": {
-    "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DTO/PetCareISW.DTO.csproj": {
+    "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DTO/PetCareISW.DTO.csproj",
+        "projectUniqueName": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
         "projectName": "PetCareISW.DTO",
-        "projectPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DTO/PetCareISW.DTO.csproj",
-        "packagesPath": "/home/g/.nuget/packages/",
-        "outputPath": "/home/g/Documents/vetplaces/IngSoft_TF/PetCareISW.DTO/obj/",
+        "projectPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\PetCareISW.DTO.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\UPC\\Ciclo 7\\Ingenieria de Software\\IngSoft_TF\\PetCareISW.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/g/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
