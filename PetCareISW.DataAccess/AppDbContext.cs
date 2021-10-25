@@ -13,8 +13,8 @@ namespace PetCareISW.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-          
-             optionsBuilder.UseSqlServer(@"Server =(localdb)\MSSQLLocalDB;Database=PetCareISW;Integrated Security=true;"); 
+          optionsBuilder.UseSqlServer("Server=sql5104.site4now.net;Database=db_a7b8c7_petcare;user=db_a7b8c7_petcare_admin;Password=password123;MultipleActiveResultSets=true");
+             //optionsBuilder.UseSqlServer(@"Server =(localdb)\MSSQLLocalDB;Database=PetCareISW;Integrated Security=true;"); 
             //  optionsBuilder.UseSqlServer(@"Server = LAPTOP-6QJ5S582\MSSQLSERVER01;Database=PetCareISW;Integrated Security=true;");
             //   optionsBuilder.UseMySQL("Server=localhost;userid=root;Password=root;Database=PetCareISW3");
             //optionsBuilder.UseMySQL("Server=us-cdbr-east-04.cleardb.com/;userid=bed40aedacd27b;Password=cb3dc8b6;Database=heroku_cf2c2f5d2d83558");
