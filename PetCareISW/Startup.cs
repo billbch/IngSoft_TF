@@ -36,7 +36,8 @@ namespace PetCareISW
                 //options.UseMySQL("Server=us-cdbr-east-04.cleardb.com/;userid=bed40aedacd27b;Password=cb3dc8b6;Database=heroku_cf2c2f5d2d83558");                // JOAQUIN CONNECTION      
               // options.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Integrated Security=true;"); 
              
-             options.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
+             //options.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer("Server=sql5104.site4now.net;Database=db_a7b8c7_petcare;user=db_a7b8c7_petcare_admin;Password=password123;MultipleActiveResultSets=true");
                 //
                 //optionsBuilder.UseSqlServer(@"Server = DESKTOP-44K5N6D\MSSQLSERVER2;Database=PetCareISW;Integrated Security=true;");
 
