@@ -27,6 +27,10 @@ namespace PetCareISW.DTO
       
         public string ProductTypeName { get; set; }
 
+        public int PersonProfileId { get; set; }
+
+        public int BusinessId { get; set; }
+
     }
 
     //    public IList<Pet> Pets { get; set; } = new List<Pet>();

@@ -22,14 +22,15 @@ namespace PetCareISW.Services
             return collection
                 .Select(c => new AppointmentDTO
                 {
-
+                    Id = c.Id,
                     CreatedAt = c.CreatedAt,
                     StartTime = c.StartTime,
                     EndTime = c.EndTime,
                     Status = true,
                     Veteryname = c.Veteryname,
                     ProductTypeName = c.ProductTypeName,
-                   
+                    PersonProfileId = c.PersonProfileId,
+                    BusinessId = c.BusinessId
                    
                 }).ToList();
 
@@ -54,6 +55,8 @@ namespace PetCareISW.Services
                 Status = true,
                 Veteryname = Appointment.Veteryname,
                 ProductTypeName = Appointment.ProductTypeName,
+                PersonProfileId = Appointment.PersonProfileId,
+                BusinessId = Appointment.BusinessId
             };
 
             response.Success = true;
@@ -72,6 +75,8 @@ namespace PetCareISW.Services
                 Status = true,
                 Veteryname = Appointment.Veteryname,
                 ProductTypeName = Appointment.ProductTypeName,
+                PersonProfileId = Appointment.PersonProfileId,
+                BusinessId = Appointment.BusinessId
 
 
             });
@@ -91,10 +96,10 @@ namespace PetCareISW.Services
                     Status = true,
                     Veteryname = Appointment.Veteryname,
                     ProductTypeName = Appointment.ProductTypeName,
+                    PersonProfileId = Appointment.PersonProfileId,
+                    BusinessId = Appointment.BusinessId
                     // Age = Appointment.Age,
                     // Phone=Appointment.Phone,
-
-
                 }); ; ; ;
             }
             catch (Exception)

@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Authorization;
 namespace PetCareISW.Controllers
 {
     [Route("api/v1/[controller]")]
-    [Authorize]
     [ApiVersion("1.0")]
     [ApiController]
     public class PetController : ControllerBase

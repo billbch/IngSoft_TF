@@ -9,5 +9,6 @@ namespace PetCareISW.DTO
         public string Description { get; set; }
         public string VetName { get; set; }
         public DateTime CreateAt { get; set; }
+        public int MedicalProfileId { get; set; }
     }
 }

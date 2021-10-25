@@ -8,7 +8,7 @@ namespace PetCareISW.Services
     {
         Task<ICollection<VaccinationRecordDto>> GetCollection(string filter);
 
-        Task<ResponseDto<VaccinationRecordDto>> GetBusiness(int id);
+        Task<ResponseDto<VaccinationRecordDto>> GetVaccinationRecord(int id);
 
         Task Create(VaccinationRecordDto entity);
 

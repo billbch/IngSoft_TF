@@ -1,4 +1,4 @@
-using System.Runtime.InteropServices;
+/*using System.Runtime.InteropServices;
 
 // En proyectos de estilo SDK como este, varios atributos de ensamblado que definían
 // en este archivo se agregan ahora automáticamente durante la compilación y se rellenan
@@ -16,3 +16,62 @@ using System.Runtime.InteropServices;
 // en COM.
 
 [assembly: Guid("fb677c63-23a8-4916-9658-33e1aaccd1e9")]
+*/
+
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using PetCareISW.Services;
+using PetCareISW.DTO;
+
+namespace PetCareISW.Controllers
+{
+    [Route("api/v1/[controller]")]
+    [ApiVersion("1.0")]
+    [ApiController]
+    public class VaccinationRecordController : ControllerBase
+    {
+        private readonly IVaccinationRecordService _service;
+
+        public VaccinationRecordController(IVaccinationRecordService service)
+        {
+            _service = service;
+        }
+
+
+        [HttpGet]
+        public async Task<IEnumerable<VaccinationRecordDto>> List([FromQuery] string filter)
+        {
+            return await _service.GetCollection(filter);
+        }
+
+        [HttpGet]
+        [Route("{id:int}")]
+        public async Task<ResponseDto<VaccinationRecordDto>> Get(int id)
+        {
+            return await _service.GetVaccinationRecord(id);
+        }
+
+        [HttpPost]
+        public async Task Post([FromBody] VaccinationRecordDto request)
+        {
+            await _service.Create(request);
+        }
+
+        [HttpPut]
+        [Route("{id:int}")]
+        public async Task Put([FromBody] VaccinationRecordDto request, int id)
+        {
+            await _service.Update(id, request);
+
+        }
+
+        [HttpDelete]
+        [Route("{id:int}")]
+        public async Task Delete(int id)
+        {
+            await _service.Delete(id);
+
+        }
+    }
+}
