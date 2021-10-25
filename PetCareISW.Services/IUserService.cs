@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-
-
-
-namespace PetCareISW.Services
+﻿namespace PetCareISW.Services
 {
     public interface IUserService
     {

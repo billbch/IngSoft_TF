@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
@@ -53,7 +50,7 @@ namespace PetCareISW.Services
             var token = generateJwtToken(user.Result);
             return new AuthenticateResponse(user.Result, token);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return null;
             }

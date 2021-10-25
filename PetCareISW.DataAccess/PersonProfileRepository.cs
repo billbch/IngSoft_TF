@@ -1,11 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PetCareISW.DataAccess;
-
 using PetCareISW.Entities;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace PetCareISW.Services

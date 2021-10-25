@@ -1,7 +1,6 @@
 ﻿using PetCareISW.DTO;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using PetCareISW.DataAccess;
 using PetCareISW.Entities;
@@ -91,7 +90,7 @@ namespace PetCareISW.Services
                     PetId = request.PetId
                 });
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 throw;

@@ -1,11 +1,9 @@
-﻿
-using PetCareISW.DataAccess;
+﻿using PetCareISW.DataAccess;
 using PetCareISW.DTO;
 using PetCareISW.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace PetCareISW.Services
@@ -49,7 +47,7 @@ namespace PetCareISW.Services
                
                 await _accountRepository.AddAsyn(account);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 throw;

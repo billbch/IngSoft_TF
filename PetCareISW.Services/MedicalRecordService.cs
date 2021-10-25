@@ -1,7 +1,6 @@
 ﻿using PetCareISW.DTO;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using PetCareISW.DataAccess;
 using PetCareISW.Entities;
@@ -95,7 +94,7 @@ namespace PetCareISW.Services
                     MedicalProfileId = request.MedicalProfileId
                 });
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 throw;

@@ -1,5 +1,4 @@
-﻿using System;
-namespace PetCareISW.Services.Settings
+﻿namespace PetCareISW.Services.Settings
 {
     public class AppSettings
     {
