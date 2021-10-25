@@ -12,6 +12,7 @@ namespace PetCareISW.DataAccess
 
         Task<ICollection<Business>> ListByAddressAsync(string Address);
 
+        Task<ICollection<Business>> ListByDistrict(string District);
 
         Task<Business> GetItem(int id);
 

@@ -30,8 +30,16 @@ namespace PetCareISW.Controllers
         
             
         }
+
         [HttpGet]
-        
+        [Route("/district")]
+        public async Task<IEnumerable<BusinessDto>> GetByDistrict([FromQuery] string district)
+        {
+            return await _service.ListByDistrict(district);
+
+        }
+
+        [HttpGet]
         public async Task<IEnumerable<BusinessDto>> List([FromQuery] string filter)
         {
             return await _service.GetCollection(filter);

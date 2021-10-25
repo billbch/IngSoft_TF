@@ -152,5 +152,26 @@ namespace PetCareISW.Services
         {
             await _repository.Delete(id);
         }
+
+        public async Task<ICollection<BusinessDto>> ListByDistrict(string district)
+        {
+            var collection = await _repository.ListByDistrict(district);
+
+            return collection.
+                Select(p => new BusinessDto
+                {
+                    Id = p.Id,
+                    RUC = p.RUC,
+                    BusinessName = p.BusinessName,
+                    District = p.District,
+                    City = p.City,
+                    Address = p.Address,
+                    Email = p.Email,
+                    Password = p.Password,
+                    Score = p.Score,
+                    Description = p.Description
+                })
+                .ToList();
+        }
     }
 }

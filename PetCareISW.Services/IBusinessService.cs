@@ -13,6 +13,9 @@ namespace PetCareISW.Services
         Task<ResponseDto<BusinessDto>> GetBusiness(int id);
 
         Task<ICollection<BusinessDto>> ListByAddressAsync(string address);
+
+        Task<ICollection<BusinessDto>> ListByDistrict(string district);
+
         Task Create(BusinessDto entity);
 
         Task Update(int id, BusinessDto entity);

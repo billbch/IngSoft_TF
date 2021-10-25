@@ -55,5 +55,9 @@ namespace PetCareISW.DataAccess
             }).State = EntityState.Deleted;
             await _context.SaveChangesAsync();
         }
+
+        public async Task<ICollection<Business>> ListByDistrict(string District) => await _context.Businesses
+        .Where(p => p.City == District)
+        .ToListAsync();
     }
 }
