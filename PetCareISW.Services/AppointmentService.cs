@@ -1,11 +1,9 @@
-﻿
-using PetCareISW.DataAccess;
+﻿using PetCareISW.DataAccess;
 using PetCareISW.DTO;
 using PetCareISW.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace PetCareISW.Services
@@ -99,7 +97,7 @@ namespace PetCareISW.Services
 
                 }); ; ; ;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 throw;

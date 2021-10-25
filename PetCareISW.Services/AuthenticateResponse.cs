@@ -1,6 +1,4 @@
-﻿using System;
-
-using PetCareISW.Entities;
+﻿using PetCareISW.Entities;
 
 namespace PetCareISW.Services
 {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PetCareISW.DTO
+﻿namespace PetCareISW.DTO
 {
     public class BusinessDto
     {

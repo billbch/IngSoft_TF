@@ -1,9 +1,6 @@
-﻿
-using PetCareISW.Entities;
+﻿using PetCareISW.Entities;
 
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace PetCareISW.DataAccess
